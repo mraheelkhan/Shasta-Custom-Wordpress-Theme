@@ -1,0 +1,121 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
+    font-family: $font-family;
+    
+}
+.home-banner{
+    // background: black;
+}
+
+.home-banner .image{
+    background-image: url('../img/homebanner.png');
+    height: 500px;
+    min-height: 300px;
+    max-height: 600;
+}
+.below-banner-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.below-banner-section .below-banner-text{
+    text-transform: uppercase;
+    
+}
+.below-banner-section .below-banner-text h2 {
+    font-weight: $menu-item-font-weight;
+}
+.below-banner-section .text-light-blue{
+    text-transform: uppercase;
+    color: $light-blue-color;
+}
+
+
+// #############################
+// ##### Bootstrap changed #####
+// #############################
+.navbar-default .navbar-nav .nav-link {
+    color: $menu-item-color;
+    font-weight: $menu-item-font-weight;
+}
+.navbar-default .navbar-nav  .active .nav-link{
+    color: $light-blue-color;
+}
+
+
+
+
+// ########## FOOTER #############
+#wrapper-footer{
+    background: $dark-blue-color;
+    padding: 100px 0px;
+}
+.footer-menu{
+    color: $light-blue-color;
+}
+.site-footer  ul{
+    list-style: none;
+}
+.footer-menu .footer-menu-item a {
+    text-transform: uppercase;
+    color: $light-blue-color;
+    font-size: 45px;
+    font-family: $font-family;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+    font-weight: $menu-item-font-weight;
+}
+.divider-xs{
+    height:5px; 
+    background: $light-blue-color; 
+    width:100px;
+    margin-left:50px;
+}
+
+.footer-menu-wrapper {
+    margin: 50px 0px;
+}
+.site-info .footer-about-shasta{
+    margin: 50px;
+}
+.site-info .footer-about-shasta h3{
+    text-transform: uppercase;
+    color: $white-color;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0px 0px 30px 0px;
+}
+
+.site-info .footer-about-shasta-description p{
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: $white-color;
+}
+.site-info .footer-about-shasta input{
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+    color: #fff;
+}
+
+
+.footer-social-media ul li{
+    display: inline;
+    margin: 0 10px;
+}
+.footer-social-media .social-media-item-linked-in {
+    color: $white-color;
+}
+
+.footer-credit{
+    margin: 25px 50px;
+}
+.footer-credit p {
+    color: $white-color;
+    font-size: 12px;
+    font-weight: normal;
+}
