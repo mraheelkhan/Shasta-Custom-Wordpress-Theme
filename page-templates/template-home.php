@@ -26,6 +26,7 @@ get_header();
                 <h2>we helped <span class="text-light-blue">tien</span></h2>
                 <h2 class="h2-class">reach new heights 
                 </h2>
+                <div class="divider-reach"></div>
             </div>
     
         </div>
@@ -34,7 +35,7 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="arrow">
+                    <div class="arrow text-center">
                         <i class="fa fa-chevron-down fa-lg"></i>
                     </div>
                 </div>

@@ -35,7 +35,7 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
     font-size: 45px;
 }
 .below-banner-section .below-banner-text .h2-class::after {
-    content: " ";
+    // content: " ";
     height: 5px;
     width: 50px;
     background: #000;
@@ -99,7 +99,14 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
     width:100px;
     margin-left:50px;
 }
-
+.divider-reach{
+    height:5px; 
+    background: $dark-blue-color; 
+    width:100px;
+}
+.arrow{
+    color: #C4C4C4;
+}
 .footer-menu-wrapper {
     margin: 50px 0px;
 }
@@ -166,7 +173,7 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
 // ####### Template Shasta #######
 // ###############################
 
-.home-banner{
+.shasta-banner{
     // background: black;
     min-height: 100vh;
     height: 100vh;
@@ -264,10 +271,10 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
 .footer-links .divider-footer{
     height:5px; 
     background: #000; 
-    width:100px;
+    width:110px;
 }
 .footer-links .footer-links-list{
-    margin: 50px 0px;
+    margin: 25px 0px;
     padding: 0;
 }
 .footer-links .footer-links-list li{

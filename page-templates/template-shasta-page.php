@@ -39,7 +39,7 @@ get_header();
     <div class="shasta-persons-list">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 m-0 p-0">
                     <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
                         <p>
                         Avery <br>Cannon
@@ -47,18 +47,104 @@ get_header();
                         <div class="divider-person"></div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                <?php $image = get_field("image") ?>
-                    <div class="person-image person-image-1" style='background-image: url("<?= $image['url']?>");''>
+                
+                <div class="col-md-3 m-0 p-0">
+                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>jason_pressman.png);">
                         <p>
-                        
-                        <?= the_field("first_name") ?><br>
-                        <?= the_field("last_name") ?>
+                        Jason <br>Pressman
                         </p>
                         <div class="divider-person"></div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 m-0 p-0">
+                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>ravi_mohan.png);">
+                        <p>
+                        Ravi <br>Mohan
+                        </p>
+                        <div class="divider-person"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 m-0 p-0">
+                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
+                        <p>
+                        Eiena <br>Ennouri
+                        </p>
+                        <div class="divider-person"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 m-0 p-0">
+                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>jacub.png);">
+                        <p>
+                        Jacob <br>Mullins
+                        </p>
+                        <div class="divider-person"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 m-0 p-0">
+                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>catlin.png);">
+                        <p>
+                        Caitlin <br>Swofford
+                        </p>
+                        <div class="divider-person"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 m-0 p-0">
+                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>isaac.png);">
+                        <p>
+                        Issac <br>Roth
+                        </p>
+                        <div class="divider-person"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 m-0 p-0">
+                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>nitin.png);">
+                        <p>
+                        Nitin <br>Chopra
+                        </p>
+                        <div class="divider-person"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 m-0 p-0">
+                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>ken_so.png);">
+                        <p>
+                        Ken <br>So
+                        </p>
+                        <div class="divider-person"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 m-0 p-0">
+                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
+                        <p>
+                        Vy <br>Tran
+                        </p>
+                        <div class="divider-person"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 m-0 p-0">
+                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>alex.png);">
+                        <p>
+                        Alex <br>Priento
+                        </p>
+                        <div class="divider-person"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 m-0 p-0">
+                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>mike_trig.png);">
+                        <p>
+                        Mike <br>Trig
+                        </p>
+                        <div class="divider-person"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 m-0 p-0">
+                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
+                        <p>
+                        Rose <br>Kelly
+                        </p>
+                        <div class="divider-person"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 m-0 p-0">
                     <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
                         <p>
                         Avery <br>Cannon
@@ -66,7 +152,7 @@ get_header();
                         <div class="divider-person"></div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 m-0 p-0">
                     <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
                         <p>
                         Avery <br>Cannon
@@ -74,7 +160,7 @@ get_header();
                         <div class="divider-person"></div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 m-0 p-0">
                     <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
                         <p>
                         Avery <br>Cannon
@@ -82,7 +168,7 @@ get_header();
                         <div class="divider-person"></div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 m-0 p-0">
                     <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
                         <p>
                         Avery <br>Cannon
@@ -90,7 +176,7 @@ get_header();
                         <div class="divider-person"></div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 m-0 p-0">
                     <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
                         <p>
                         Avery <br>Cannon
@@ -98,7 +184,7 @@ get_header();
                         <div class="divider-person"></div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 m-0 p-0">
                     <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
                         <p>
                         Avery <br>Cannon
@@ -106,7 +192,7 @@ get_header();
                         <div class="divider-person"></div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 m-0 p-0">
                     <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
                         <p>
                         Avery <br>Cannon
@@ -114,95 +200,7 @@ get_header();
                         <div class="divider-person"></div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                </div>
-                <div class="col-md-3">
+                <div class="col-md-3 m-0 p-0">
                     <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
                         <p>
                         Avery <br>Cannon
@@ -213,7 +211,7 @@ get_header();
             </div>
 
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 m-0 p-0">
                     <div class="person-image person-founders" style="background: #00A7E1">
                         <p>
                         Founding <br>Leadership
@@ -221,18 +219,26 @@ get_header();
 
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
+                <div class="col-md-3 m-0 p-0">
+                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>tod.png);">
                         <p>
-                        Avery <br>Cannon
+                        Tod <br>Francis
                         </p>
                         <div class="divider-person"></div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 m-0 p-0">
                     <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
                         <p>
-                        Avery <br>Cannon
+                        Rob <br>Coneybeer
+                        </p>
+                        <div class="divider-person"></div>
+                    </div>
+                </div>
+                <div class="col-md-3 m-0 p-0">
+                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>austin.png);">
+                        <p>
+                        Austin <br>Grose
                         </p>
                         <div class="divider-person"></div>
                     </div>
@@ -244,6 +250,33 @@ get_header();
     <div class="footer-links">
         <div class="container">
             <div class="row">
+                <div class="col-md-3">
+                    <div class="footer footer-1">
+                        <h3>How To</h3>
+                        <div class="divider-footer"></div>
+                        <ul class="footer-links-list">
+                            <li>TechCrunch: As Stocks recover, private investors aren’t buying the hype</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer footer-1">
+                        <h3>How To</h3>
+                        <div class="divider-footer"></div>
+                        <ul class="footer-links-list">
+                            <li>TechCrunch: As Stocks recover, private investors aren’t buying the hype</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="footer footer-1">
+                        <h3>How To</h3>
+                        <div class="divider-footer"></div>
+                        <ul class="footer-links-list">
+                            <li>TechCrunch: As Stocks recover, private investors aren’t buying the hype</li>
+                        </ul>
+                    </div>
+                </div>
                 <div class="col-md-3">
                     <div class="footer footer-1">
                         <h3>How To</h3>
