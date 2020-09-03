@@ -39,11 +39,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 						wow.addBox(this);
 					}).scrollSpy();
 	</script>
+	
+
+	
 </head>
 
 <body <?php body_class(); ?> <?php understrap_body_attributes(); ?>>
 <?php do_action( 'wp_body_open' ); ?>
 <div class="site" id="page">
+
 
 	<!-- ******************* The Navbar Area ******************* -->
 	<div id="wrapper-navbar">
@@ -61,7 +65,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<?php endif; ?>
 
 					<!-- custom logo -->
-					<img class="logo-img" src="./wp-content/themes/understrap/img/logo-shasta.png" />
+					<a href="<?php echo site_url() ?>">
+
+						<img class="logo-img" src="<?php echo site_url() ?>/wp-content/themes/understrap/img/logo-shasta.png" />
+					</a>
 					<!-- end custom logo -->
 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
