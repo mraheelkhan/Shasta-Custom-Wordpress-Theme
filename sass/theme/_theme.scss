@@ -159,6 +159,7 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
 .footer-social-media ul li > a > i{
     margin:0px 7px;
 }
+
 .footer-credit{
     margin: 25px 50px;
 }
@@ -282,4 +283,78 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
     margin: 0;
     padding: 0;
     color: $light-blue-color;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .person-image:hover .middle {
+    opacity: 1;
+  }  
+  .person-image:hover{
+    opacity: 0.3;
+  }
+
+
+//   ######## BIO DETAILS #############
+.bio-banner{
+    position: relative;
+}
+.bio-banner .image{
+    width: 100%;
+}
+.bio-banner .bio-detail-section{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+.bio-banner .bio-detail-section h2{
+    text-transform: uppercase;
+    color: $dark-blue-color;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+}
+.bio-designation{
+    margin: 10px 0px;
+}
+.bio-designation p{
+    font-size: 16px;
+    line-height: 36px;
+}
+.bio-social-media ul li{
+    display: inline;
+    margin: 0 10px;
+}
+.bio-social-media .social-media-item-linked-in {
+    color: $white-color;
+}
+.bio-social-media ul li > a{
+    color:$dark-blue-color;
+    padding-bottom: 10px;
+    border-bottom: 5px solid $dark-blue-color;
+}
+.bio-social-media ul li > a > i{
+    margin:0px 7px;
+}
+
+.bio-description{
+    margin: 20px 10px;
+}
+.bio-back-button button{
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid $dark-blue-color;
+    border-radius: 0;
+    text-transform: uppercase;
+    color: $dark-blue-color;
+    font-weight: bold;
 }

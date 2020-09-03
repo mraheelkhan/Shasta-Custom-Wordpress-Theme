@@ -45,6 +45,9 @@ get_header();
                         Avery <br>Cannon
                         </p>
                         <div class="divider-person"></div>
+                        <div class="middle">
+                            <div class="text">John Doe</div>
+                        </div>
                     </div>
                 </div>
                 
