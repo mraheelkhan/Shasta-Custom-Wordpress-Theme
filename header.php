@@ -61,7 +61,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<?php endif; ?>
 
 					<!-- custom logo -->
-					<img src="./wp-content/themes/understrap/img/logo.png" />
+					<img class="logo-img" src="./wp-content/themes/understrap/img/logo-shasta.png" />
 					<!-- end custom logo -->
 
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">

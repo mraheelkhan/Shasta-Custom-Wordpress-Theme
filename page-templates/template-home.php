@@ -22,7 +22,9 @@ get_header();
     <div class="container">
         <div class="below-banner-text">
             <h2>we helped <span class="text-light-blue">tien</span></h2>
-            <h2>reach new heights</h2>
+            <h2>reach new heights 
+            </h2>
+            <div class="after-text-line"></div>
         </div>
 
     </div>
