@@ -74,6 +74,17 @@ $image_dir = "/wp-content/themes/understrap/img/";
         </div>
 
     </div>
+    <div class="saas">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2> SAAS </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta dignissim magna sed luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta dignissim magna sed luctus.</p>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+    </div>
     <div class="footer-links">
         <div class="container">
             <div class="row">
