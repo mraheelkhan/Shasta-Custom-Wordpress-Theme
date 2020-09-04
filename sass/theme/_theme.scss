@@ -358,3 +358,70 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
     color: $dark-blue-color;
     font-weight: bold;
 }
+
+// ###############################
+// ####### Template Founder #######
+// ###############################
+
+.founder-banner{
+    // background: black;
+    min-height: 100vh;
+    height: 100vh;
+}
+
+.founder-hero-banner .image{
+    background-image: url('../img/founders-hero.png');
+    background-position: center;
+    background-size: cover;
+    height: 120VH;
+    min-height: 100vh;
+    // max-height:;
+}
+
+.founder-hero-banner .hero-headline{
+    padding-top: 101px;
+    padding-left: 143px;
+    width: 950px;
+}
+.founder-hero-banner .hero-headline h2 {
+    text-transform: uppercase;
+    color: $dark-blue-color;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+}
+
+.founder-hero-divider-xs{
+    height:5px; 
+    background: $dark-blue-color; 
+    width:100px;
+    // margin-left:50px;
+}
+
+.founder-below-banner-section{
+    background: $dark-blue-color;
+    // height: 229px;   
+}
+.founder-below-banner-section .founder-below-banner-text{
+    padding: 50px;
+    // width: 700px;
+}
+.founder-below-banner-text > p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: $white-color;
+}
+
+.middle-navigation{
+    margin: 100px 0px;
+}
+.middle-navigation .nav-link{
+    color: $dark-blue-color;
+}
+.middle-navigation .active{
+    color: $light-blue-color;
+    border-bottom: 5px solid $light-blue-color;
+}
