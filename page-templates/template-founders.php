@@ -47,7 +47,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Saas</a>
+                            <a class="nav-link" href="#">SaaS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Infrastructure</a>
@@ -68,7 +68,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                             <a class="nav-link" href="#">More</a>
                         </li>
                     </ul>
-                   
+
                 </div>
             </nav>
         </div>
@@ -78,56 +78,323 @@ $image_dir = "/wp-content/themes/understrap/img/";
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h2> SAAS </h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta dignissim magna sed luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta dignissim magna sed luctus.</p>
-                </div>
-                <div class="col-md-6"></div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-links">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="footer footer-1">
-                        <h3>How To</h3>
-                        <div class="divider-footer"></div>
-                        <ul class="footer-links-list">
-                            <li>TechCrunch: As Stocks recover, private investors aren’t buying the hype</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="footer footer-1">
-                        <h3>How To</h3>
-                        <div class="divider-footer"></div>
-                        <ul class="footer-links-list">
-                            <li>TechCrunch: As Stocks recover, private investors aren’t buying the hype</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="footer footer-1">
-                        <h3>How To</h3>
-                        <div class="divider-footer"></div>
-                        <ul class="footer-links-list">
-                            <li>TechCrunch: As Stocks recover, private investors aren’t buying the hype</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="footer footer-1">
-                        <h3>How To</h3>
-                        <div class="divider-footer"></div>
-                        <ul class="footer-links-list">
-                            <li>TechCrunch: As Stocks recover, private investors aren’t buying the hype</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+                    <h2 class="saas-headline"> SAAS </h2>
+                    <p class="saas-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta dignissim magna sed luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta dignissim magna sed luctus.</p>
 
-<?php
-get_footer();
+                    <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+                        <div class="">
+
+
+                            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading p-3 mb-1" role="tab" id="heading3">
+                                        <h3 class="panel-title">
+                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                                Can Solodev CMS handle multiple websites?
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                                        <div class="panel-body px-1 mb-1">
+                                            <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading p-3 mb-1" role="tab" id="heading3">
+                                        <h3 class="panel-title">
+                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                                Needs of any size company with our Multi-Site
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                                        <div class="panel-body px-1 mb-1">
+                                            <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading p-3 mb-1" role="tab" id="heading3">
+                                        <h3 class="panel-title">
+                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                                MS handle multiple websites for my company?
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                                        <div class="panel-body px-1 mb-1">
+                                            <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading p-3 mb-1" role="tab" id="heading3">
+                                        <h3 class="panel-title">
+                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                                Handle multiple websites for my company?
+                                            </a>
+                                        </h3>
+                                    </div>
+                                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                                        <div class="panel-body px-1 mb-1">
+                                            <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-6 m-0 p-0 glint-person">
+                    <!-- <div class="">
+                        <h2 class="">GLINT</h2>
+                        <div class="divider-xs"></div>
+                    </div> -->
+                </div>
+
+                <div class="col-md-6 mt-5">
+                    <div class="active-head">
+                        <h2> action</h2>
+                        <div class="divider-active-head"></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="active-head ml-5">
+                        <h2> Exits</h2>
+                        <div class="divider-active-head"></div>
+                    </div>
+                </div>
+                    <div class="col-md-3">
+
+                        <div class="categories-list">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        Digital Air Strike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        LiquidSpace
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        LiveIntent
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Extole
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Digital Air
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Air Strike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Extole
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Digital Air
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Air Strike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Digital Strike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Extole
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Digital Air
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Air Strike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Digital Strike
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3">
+                        <div class="categories-list">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        Digital Air Strike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        LiquidSpace
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        LiveIntent
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Extole
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Digital Air
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Air Strike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Digital Strike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Extole
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Digital Air
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Air Strike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Digital Strike
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="categories-list ml-5">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        Digital Air Strike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        LiquidSpace
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        LiveIntent
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Extole
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Digital Air
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Air Strike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Digital Strike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Extole
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Digital Air
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Air Strike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Digital Strike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Extole
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Digital Air
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Air Strike
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        Digital Strike
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <?php
+    get_footer();

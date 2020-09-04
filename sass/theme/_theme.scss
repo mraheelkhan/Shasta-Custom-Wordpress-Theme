@@ -419,9 +419,88 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
     margin: 100px 0px;
 }
 .middle-navigation .nav-link{
-    color: $dark-blue-color;
+    color: $dark-blue-color!important;
 }
 .middle-navigation .active{
     color: $light-blue-color;
     border-bottom: 5px solid $light-blue-color;
+}
+.middle-navigation .active a{
+    color: $light-blue-color !important;
+    
+}
+
+.saas-headline{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: $dark-blue-color;
+    margin-bottom: 50px;
+}
+.saas-description{
+    margin-bottom: 50px;
+}
+
+// faq
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    padding: 0;
+    border-bottom: 1px solid #958e8e;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-size: 16px;
+    color: $light-blue-color;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 25px;
+    content: "\f106";
+    color: #1f7de2;
+    position: absolute;
+    margin-top: -3px;
+    right: 40px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f105";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
+
+
+.glint-person{
+    background-image: url('../img/glint-2.png');
+    background-size: cover;
+    height: 550px;
+}
+
+.active-head > h2{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: $dark-blue-color;
+}
+.divider-active-head{
+    height:5px; 
+    background: #000; 
+    width:110px;
+}
+.categories-list{
+    margin-top: 50px;
+}
+.categories-list > ul{
+    padding: 0;
+}
+.categories-list ul > li {
+    color: $light-blue-color;
+    list-style: none;
+    border-bottom: 1px solid #958e8e;
+    padding: 5px;
+}
+.categories-list ul > li > a {
+    color: $light-blue-color;
 }
