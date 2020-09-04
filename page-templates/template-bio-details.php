@@ -24,7 +24,7 @@ get_header();
         <div class="bio-detail-section">
             <div class="container">
             <div class="bio-back-button text-right">
-                            <button class="btn btn-primary btn-bio-back">Back</button>
+                            <a href="<?= site_url() . '/shasta'; ?>" class="btn btn-primary btn-bio-back">Back</a>
                         </div>
                 <div class="row">
                 

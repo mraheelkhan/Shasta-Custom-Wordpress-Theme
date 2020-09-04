@@ -107,12 +107,12 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                 <div class="panel panel-default">
                                     <div class="panel-heading p-3 mb-1" role="tab" id="heading3">
                                         <h3 class="panel-title">
-                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
                                                 Needs of any size company with our Multi-Site
                                             </a>
                                         </h3>
                                     </div>
-                                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                                    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                                         <div class="panel-body px-1 mb-1">
                                             <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                         </div>
@@ -121,12 +121,12 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                 <div class="panel panel-default">
                                     <div class="panel-heading p-3 mb-1" role="tab" id="heading3">
                                         <h3 class="panel-title">
-                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
                                                 MS handle multiple websites for my company?
                                             </a>
                                         </h3>
                                     </div>
-                                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                                    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                                         <div class="panel-body px-1 mb-1">
                                             <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                         </div>
@@ -135,12 +135,12 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                 <div class="panel panel-default">
                                     <div class="panel-heading p-3 mb-1" role="tab" id="heading3">
                                         <h3 class="panel-title">
-                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true" aria-controls="collapse6">
                                                 Handle multiple websites for my company?
                                             </a>
                                         </h3>
                                     </div>
-                                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                                    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                                         <div class="panel-body px-1 mb-1">
                                             <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                         </div>

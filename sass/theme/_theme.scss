@@ -349,7 +349,7 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
 .bio-description{
     margin: 20px 10px;
 }
-.bio-back-button button{
+.bio-back-button a{
     background: transparent;
     border: 0;
     border-bottom: 2px solid $dark-blue-color;
@@ -467,7 +467,11 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
     content: "\f105";
 }
 .accordion-section .panel-default .panel-body {
-    font-size: 1.2rem;
+    font-size: 14px;
+   
+}
+.accordion-section .panel-default .panel-body p {
+    padding: 10px;
 }
 
 
