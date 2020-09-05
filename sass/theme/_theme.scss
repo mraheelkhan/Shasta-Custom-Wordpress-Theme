@@ -508,3 +508,133 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
 .categories-list ul > li > a {
     color: $light-blue-color;
 }
+
+
+
+// ###############################
+// ####### Template Elevates #######
+// ###############################
+
+.elevates-banner{
+    // background: black;
+    min-height: 100vh;
+    height: 100vh;
+}
+
+.elevates-hero-banner .image{
+    background-image: url('../img/elevates-hero.png');
+    background-position: center;
+    background-size: cover;
+    height: 120VH;
+    min-height: 100vh;
+    // max-height:;
+}
+
+.elevates-hero-banner .image-pattern {
+   margin-top: 250px;
+   margin-left: 150px;
+    // max-height:;
+}
+
+.elevates-hero-banner .hero-headline{
+    padding-top: 101px;
+    padding-left: 143px;
+    width: 950px;
+}
+.elevates-hero-banner .hero-headline h2 {
+    text-transform: uppercase;
+    color: $dark-blue-color;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: 0.1em;
+}
+
+.elevates-hero-divider-xs{
+    height:5px; 
+    background: $dark-blue-color; 
+    width:100px;
+    // margin-left:50px;
+}
+
+.elevates-below-banner-section{
+    background: $dark-blue-color;
+    // height: 229px;   
+}
+.elevates-below-banner-section .elevates-below-banner-text{
+    padding: 50px;
+    // width: 700px;
+}
+.elevates-below-banner-text > p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: $white-color;
+}
+.revenue-headline{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: $light-blue-color;
+    margin-bottom: 50px;
+}
+.revenue-description{
+    margin-bottom: 50px;
+}
+.revenue-subhead{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.revenue-light-lines {
+    background-image: url('../img/light-lines.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 400px;
+}
+.active-head-revenue-labs > h2{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: $light-blue-color;
+}
+.divider-revenue-head{
+    height:5px; 
+    background: $light-blue-color; 
+    width:110px;
+}
+.revenue-icon{
+    width: 50px;
+    max-width: 50px;
+    min-width: 50px;
+    float: right;
+}
+.woman-person{
+    background-image: url('../img/woman-person.png');
+    background-size: cover;
+    height: 650px;
+}
+.people-labs{
+    background:rgba(229, 229, 229, 0.3);
+}
+.infrastructure-light-lines {
+    background-image: url('../img/light-lines.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 400px;
+    padding-bottom: 150px;
+    
+}
+.leadership-light-lines {
+    background-image: url('../img/light-lines.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 400px;
+    padding-bottom: 150px;
+    background: rgba(229, 229, 229, 0.3);
+}
