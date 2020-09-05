@@ -14,7 +14,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
-
+<?php
+// for the use of static content if-incase
+$theme_link = "/wp-content/themes/understrap/";
+$image_dir = "/wp-content/themes/understrap/img/";
+?>
 <div class="wrapper" id="wrapper-footer">
 
 	<div class="<?php echo esc_attr( $container ); ?>">
@@ -30,7 +34,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 							<ul class="footer-menu">
 								<li class="footer-menu-item">
-									<a href="#">
+									<a onclick="changeFooter()" id="contactus" >
 										contact us
 									</a>
 								</li>
@@ -49,7 +53,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							<div class="divider-xs"></div>
 						</div>
 
-						<div class="row">
+						<div class="row" id="footer1">
 							<div class="col-md-6">
 								<div class="footer-about-shasta">
 									<h3>
@@ -80,6 +84,62 @@ $container = get_theme_mod( 'understrap_container_type' );
 									</form>
 								</div>
 							</div>
+						</div>
+
+						<div class="row hide" id="footer2">
+							<div class="col-md-6">
+								<div class="row">
+									<div class="col-md-6 m-0 p-0">
+										<div class="footer-about-shasta">
+											<h3>
+												<strong>
+												MENLO PARK
+												</strong>
+											</h3>
+											<div class="footer-about-shasta-description">
+												<p>
+												2440 Sand Hill Road, Suite 300 Menlo Park, CA 94025 650.543.1700 information@shastavc.com
+												</p>
+												<h3 class="directions">
+													DIRECTIONS
+												</h3>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6  m-0 p-0">
+										<div class="footer-about-shasta">
+											<img class="image-map" src="<?= site_url() . $image_dir;?>googlemap1.png"/>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="row">
+									<div class="col-md-6  m-0 p-0">
+										<div class="footer-about-shasta">
+											<h3>
+											<strong> SAN FRANCISCO </strong>
+											</h3>
+											<div class="footer-about-shasta-description">
+												<p>
+												27 South Park St., Suite 101 San Francisco, CA 94107
+												</p>
+												<h3 class="directions">
+													DIRECTIONS
+												</h3>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 m-0 p-0">
+										<div class="footer-about-shasta">
+											<img class="image-map" src="<?= site_url() . $image_dir;?>googlemap2.png"/>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							
 						</div>
 
 						<div class="row">
@@ -135,7 +195,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div><!-- #page we need this extra closing tag here -->
 
 <?php wp_footer(); ?>
-
+<script>
+	function changeFooter() {
+		var map2 = document.getElementById("footer2").classList;
+		var map1 = document.getElementById("footer1").classList;
+		map1.add("hide");
+		map2.remove("hide");
+	}
+</script>
 </body>
 
 </html>

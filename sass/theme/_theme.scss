@@ -638,3 +638,19 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
     padding-bottom: 150px;
     background: rgba(229, 229, 229, 0.3);
 }
+.directions{
+    color: $light-blue-color!important;
+    font-weight: 700;
+}
+.directions-map{
+
+}
+.image-map{
+    width: 100%;
+}
+.hide{
+    display: none;
+}
+.show{
+    display:block;
+}
