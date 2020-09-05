@@ -34,7 +34,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
 
 							<ul class="footer-menu">
 								<li class="footer-menu-item">
-									<a onclick="changeFooter()" id="contactus" >
+									<a onclick="changeFooter()" href="javascript:void(0);" id="contactus" >
 										contact us
 									</a>
 								</li>
@@ -199,6 +199,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
 	function changeFooter() {
 		var map2 = document.getElementById("footer2").classList;
 		var map1 = document.getElementById("footer1").classList;
+		 document.getElementById("contactus").style.color = 'white';
 		map1.add("hide");
 		map2.remove("hide");
 	}
