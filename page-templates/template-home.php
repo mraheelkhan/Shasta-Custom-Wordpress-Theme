@@ -15,6 +15,7 @@ get_header();
 <div class="homepage">
 
     <div class="home-banner">
+    <!-- video would be uploaded here  -->
         <div class="image">
             
         </div>
