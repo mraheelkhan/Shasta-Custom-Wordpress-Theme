@@ -45,14 +45,14 @@ $image_dir = "/wp-content/themes/understrap/img/";
         <div class="revenue-light-lines">
             <div class="container">
                 <div class="row mt-5">
-                    <div class="col-md-6  mt-5">
+                    <div class="col-md-4  mt-5">
                         <h2 class="revenue-headline"> REVENUE </h2>
                         <p class="revenue-subhead">
                             You got your first customers and your first $1M, now what?
                         </p>
                         <p class="revenue-description">Learn what it takes to put in all the pieces to get to $10M and beyond in our revenue labs.</p>
                     </div>
-                    <div class="col-md-6  mt-5">
+                    <div class="col-md-6 offset-md-2 mt-5">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="active-head-revenue-labs">
@@ -69,7 +69,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                             <div class="">
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                     <div class="panel panel-default">
-                                        <div class="panel-heading p-2 mb-1" role="tab" id="heading3">
+                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                             <h3 class="panel-title">
                                                 <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
                                                     Marketing
@@ -84,7 +84,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                     </div>
 
                                     <div class="panel panel-default">
-                                        <div class="panel-heading p-2 mb-1" role="tab" id="heading3">
+                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                             <h3 class="panel-title">
                                                 <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
                                                     Sales
@@ -98,7 +98,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                         </div>
                                     </div>
                                     <div class="panel panel-default">
-                                        <div class="panel-heading p-2 mb-1" role="tab" id="heading3">
+                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                             <h3 class="panel-title">
                                                 <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
                                                     Customer Success
@@ -112,7 +112,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                         </div>
                                     </div>
                                     <div class="panel panel-default">
-                                        <div class="panel-heading p-2 mb-1" role="tab" id="heading3">
+                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                             <h3 class="panel-title">
                                                 <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true" aria-controls="collapse6">
                                                     Print & Media
@@ -126,7 +126,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                         </div>
                                     </div>
                                     <div class="panel panel-default">
-                                        <div class="panel-heading p-2 mb-1" role="tab" id="heading3">
+                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                             <h3 class="panel-title">
                                                 <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="true" aria-controls="collapse7">
                                                     Business Development
@@ -140,7 +140,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                         </div>
                                     </div>
                                     <div class="panel panel-default">
-                                        <div class="panel-heading p-2 mb-1" role="tab" id="heading3">
+                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                             <h3 class="panel-title">
                                                 <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="true" aria-controls="collapse8">
                                                     Marketing Team Support Services
@@ -187,7 +187,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                 <div class="">
                                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                         <div class="panel panel-default">
-                                            <div class="panel-heading p-2 mb-1" role="tab" id="heading3">
+                                            <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                                 <h3 class="panel-title">
                                                     <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
                                                         Our Design
@@ -202,7 +202,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                         </div>
     
                                         <div class="panel panel-default">
-                                            <div class="panel-heading p-2 mb-1" role="tab" id="heading3">
+                                            <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                                 <h3 class="panel-title">
                                                     <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true" aria-controls="collapse6">
                                                         Culture
@@ -216,7 +216,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                             </div>
                                         </div>
                                         <div class="panel panel-default">
-                                            <div class="panel-heading p-2 mb-1" role="tab" id="heading3">
+                                            <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                                 <h3 class="panel-title">
                                                     <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="true" aria-controls="collapse7">
                                                         Talent Recruitment Platform
@@ -243,14 +243,14 @@ $image_dir = "/wp-content/themes/understrap/img/";
         <div class="infrastructure-light-lines">
             <div class="container">
                 <div class="row mt-5">
-                    <div class="col-md-6  mt-5">
+                    <div class="col-md-4  mt-5">
                         <h2 class="revenue-headline"> INFRASTRUCTURE </h2>
                         <p class="revenue-subhead">
                         Are your technology and business stacks ready for growth?   
                         </p>
                         <p class="revenue-description">Your infrastructure is solid but what happens at 10x or 100x the customers? Get prepared and plan ahead in our infrastructure labs.</p>
                     </div>
-                    <div class="col-md-6  mt-5">
+                    <div class="col-md-6 offset-md-2 mt-5">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="active-head-revenue-labs">
@@ -267,7 +267,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                             <div class="">
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                     <div class="panel panel-default">
-                                        <div class="panel-heading p-2 mb-1" role="tab" id="heading3">
+                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                             <h3 class="panel-title">
                                                 <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
                                                     Data Architecture   
@@ -282,7 +282,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                     </div>
 
                                     <div class="panel panel-default">
-                                        <div class="panel-heading p-2 mb-1" role="tab" id="heading3">
+                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                             <h3 class="panel-title">
                                                 <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
                                                     Corp Security Assessment
@@ -308,14 +308,14 @@ $image_dir = "/wp-content/themes/understrap/img/";
         <div class="leadership-light-lines">
             <div class="container">
                 <div class="row mt-5">
-                    <div class="col-md-6  mt-5">
+                    <div class="col-md-4  mt-5">
                         <h2 class="revenue-headline"> leadership </h2>
                         <p class="revenue-subhead">
                         Get ready to take your company to new heights?   
                         </p>
                         <p class="revenue-description">You've brought the company this far, now it's time to go further. Become more than a founder and learn what it takes to be a growth leader in our leadership labs.</p>
                     </div>
-                    <div class="col-md-6  mt-5">
+                    <div class="col-md-6 offset-md-2  mt-5">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="active-head-revenue-labs">
@@ -332,7 +332,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                             <div class="">
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                     <div class="panel panel-default">
-                                        <div class="panel-heading p-2 mb-1" role="tab" id="heading3">
+                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                             <h3 class="panel-title">
                                                 <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
                                                 fund raising for series B   
@@ -347,7 +347,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                     </div>
 
                                     <div class="panel panel-default">
-                                        <div class="panel-heading p-2 mb-1" role="tab" id="heading3">
+                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                             <h3 class="panel-title">
                                                 <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
                                                 board management
@@ -361,7 +361,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                         </div>
                                     </div>
                                     <div class="panel panel-default">
-                                        <div class="panel-heading p-2 mb-1" role="tab" id="heading3">
+                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                             <h3 class="panel-title">
                                                 <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
                                                 Company Management
@@ -375,7 +375,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                         </div>
                                     </div>
                                     <div class="panel panel-default">
-                                        <div class="panel-heading p-2 mb-1" role="tab" id="heading3">
+                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                             <h3 class="panel-title">
                                                 <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
                                                 Coaching 

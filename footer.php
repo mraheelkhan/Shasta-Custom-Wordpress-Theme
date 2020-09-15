@@ -196,12 +196,23 @@ $image_dir = "/wp-content/themes/understrap/img/";
 
 <?php wp_footer(); ?>
 <script>
-	function changeFooter() {
+		var map22 = false;
+		var map11 = false;
 		var map2 = document.getElementById("footer2").classList;
 		var map1 = document.getElementById("footer1").classList;
-		 document.getElementById("contactus").style.color = 'white';
-		map1.add("hide");
-		map2.remove("hide");
+	function changeFooter() {
+		
+		if(map22){
+			document.getElementById("contactus").style.color = '';
+			map2.add("hide");
+			map1.remove('hide');
+			map22 = false;
+		} else {
+			document.getElementById("contactus").style.color = 'white';
+			map1.add("hide");
+			map2.remove("hide");
+			map22 = true;
+		}
 	}
 </script>
 </body>

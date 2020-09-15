@@ -23,7 +23,7 @@ get_header();
         <img class="image" src="<?= site_url() . $image_dir ?>bio-details-image.png"/>
         <div class="bio-detail-section">
             <div class="container">
-            <div class="bio-back-button text-right">
+            <div class="bio-back-button float-right">
                             <a href="<?= site_url() . '/shasta'; ?>" class="btn btn-primary btn-bio-back">Back</a>
                         </div>
                 <div class="row">
@@ -37,7 +37,7 @@ get_header();
                             <p>Managing Director</p>
                         </div>
 
-                        <div class="" style="height:50px"></div>
+                        <div class="d-none d-lg-block" style="height:50px" ></div>
 
                         <div class="bio-social-media">
 
@@ -55,7 +55,7 @@ get_header();
                             </ul>
                         </div>
 
-                        <div class="bio-description">
+                        <div class="bio-description d-none-visible d-md-block">
                             <p>
                             A company builder who played an integral role in the development of one of today’s largest online businesses, Walmart.com, Jason acts as a thought partner, advocate, and counselor to entrepreneurs looking to take their companies from initial proof of product-market fit to industry category leadership. </p>
                             <p>Jason led the firm’s investments in and currently serves on the Boards of: Zuora (NYSE: ZUO), Nextdoor, LeanPlum, Smule, and ValiMail. Jason also led the firm’s investments in companies such as Adometry (acquired by Google), Demdex (acquired by Adobe), Glint (acquired by LinkedIn), Steelbrick (acquired by Salesforce), and StrongLoop (acquired by IBM), among others.</p>
@@ -65,6 +65,13 @@ get_header();
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="bio-description d-block d-sm-none">
+            <p>
+            A company builder who played an integral role in the development of one of today’s largest online businesses, Walmart.com, Jason acts as a thought partner, advocate, and counselor to entrepreneurs looking to take their companies from initial proof of product-market fit to industry category leadership. </p>
+            <p>Jason led the firm’s investments in and currently serves on the Boards of: Zuora (NYSE: ZUO), Nextdoor, LeanPlum, Smule, and ValiMail. Jason also led the firm’s investments in companies such as Adometry (acquired by Google), Demdex (acquired by Adobe), Glint (acquired by LinkedIn), Steelbrick (acquired by Salesforce), and StrongLoop (acquired by IBM), among others.</p>
+            <p>Jason holds an M.B.A. from Stanford Graduate School of Business and a B.S. in Finance from University of Maryland. He is an avid scuba diver and a passionate supporter of shark conservation
+            </p>
         </div>
     </div>
 </div>

@@ -77,7 +77,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
     <div class="saas">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-5 ">
                     <h2 class="saas-headline"> SAAS </h2>
                     <p class="saas-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta dignissim magna sed luctus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porta dignissim magna sed luctus.</p>
 
@@ -86,11 +86,8 @@ $image_dir = "/wp-content/themes/understrap/img/";
 
 
                             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-
-
                                 <div class="panel panel-default">
-                                    <div class="panel-heading p-3 mb-1" role="tab" id="heading3">
+                                    <div class="panel-heading pl-0 pr-3 pb-3 pt-3 mb-1" role="tab" id="heading3">
                                         <h3 class="panel-title">
                                             <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
                                                 Can Solodev CMS handle multiple websites?
@@ -105,7 +102,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                 </div>
 
                                 <div class="panel panel-default">
-                                    <div class="panel-heading p-3 mb-1" role="tab" id="heading3">
+                                    <div class="panel-heading pl-0 pr-3 pb-3 pt-3 mb-1" role="tab" id="heading3">
                                         <h3 class="panel-title">
                                             <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
                                                 Needs of any size company with our Multi-Site
@@ -119,7 +116,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                     </div>
                                 </div>
                                 <div class="panel panel-default">
-                                    <div class="panel-heading p-3 mb-1" role="tab" id="heading3">
+                                    <div class="panel-heading pl-0 pr-3 pb-3 pt-3 mb-1" role="tab" id="heading3">
                                         <h3 class="panel-title">
                                             <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
                                                 MS handle multiple websites for my company?
@@ -133,7 +130,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                     </div>
                                 </div>
                                 <div class="panel panel-default">
-                                    <div class="panel-heading p-3 mb-1" role="tab" id="heading3">
+                                    <div class="panel-heading pl-0 pr-3 pb-3 pt-3 mb-1" role="tab" id="heading3">
                                         <h3 class="panel-title">
                                             <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true" aria-controls="collapse6">
                                                 Handle multiple websites for my company?
@@ -151,7 +148,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                         </div>
                     </section>
                 </div>
-                <div class="col-md-6 m-0 p-0 glint-person">
+                <div class="col-md-6  offset-md-1 glint-person">
                     <!-- <div class="">
                         <h2 class="">GLINT</h2>
                         <div class="divider-xs"></div>

@@ -144,13 +144,18 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
     opacity: 1; /* Firefox */
   }
 
-
+a:hover {
+    text-decoration: none; 
+}
 .footer-social-media ul li{
     display: inline;
     margin: 0 10px;
 }
 .footer-social-media .social-media-item-linked-in {
     color: $white-color;
+}
+.footer-social-media .social-media-item-linked-in:hover a{
+        text-decoration: none;
 }
 .footer-social-media ul li > a{
     color:$light-blue-color;
@@ -239,6 +244,12 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
     background-size: cover;
 }
 .person-image p {
+    color: $person-name-color;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+.person-info-detail p {
     color: $person-name-color;
     font-weight: bold;
     font-size: 16px;
@@ -353,7 +364,7 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
 .bio-back-button a{
     background: transparent;
     border: 0;
-    border-bottom: 2px solid $dark-blue-color;
+    border-bottom: 4px solid $dark-blue-color;
     border-radius: 0;
     text-transform: uppercase;
     color: $dark-blue-color;
@@ -447,29 +458,36 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
 .accordion-section .panel-default > .panel-heading {
     border: 0;
     padding: 0;
-    border-bottom: 1px solid #958e8e;
+    //  border-bottom: 1px solid #958e8e;
 }
 .accordion-section .panel-default .panel-title a {
     display: block;
     font-size: 16px;
-    color: $light-blue-color;
+    color: #000;
+    font-weight: 700;
 }
 .accordion-section .panel-default .panel-title a:after {
     font-family: 'FontAwesome';
     font-style: normal;
     font-size: 25px;
     content: "\f106";
-    color: #1f7de2;
+    color: #c5c7c9; 
     position: absolute;
     margin-top: -3px;
     right: 40px;
 }
 .accordion-section .panel-default .panel-title a.collapsed:after {
-    content: "\f105";
+    content: "\f107";
+    
+    color: #1f7de2;
+     
 }
 .accordion-section .panel-default .panel-body {
     font-size: 14px;
-   
+}
+#accordion .panel-default{
+    border-bottom: 1px solid #958e8e;
+    margin-bottom: 6px;
 }
 .accordion-section .panel-default .panel-body p {
     padding: 10px;
@@ -655,6 +673,115 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
 .show{
     display:block;
 }
+#navbarNavDropdown{
+    background: #fff;
+    padding: 25px;
+}
 .white-color{
     color: #fff;
+}
+.person-info-detail{
+    position: absolute;
+    top: 20px;
+    left:20px;
+    z-index: 100;
+}
+
+  
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00A7E1;
+    z-index: 1000;
+  }
+  .overlay:hover {
+    opacity: 0.6;
+    padding-top:100px;
+    padding-left:20px;
+    font-size:18px;
+  }
+  .image_overlay:hover .overlay {
+    opacity: 1;
+    }
+
+// ##################################
+// ########### MEDIA QUERIES ########
+// ##################################
+
+@media only screen and (min-width: 601px) {
+   
+}
+  
+@media only screen and (max-width: 769px) {
+    .shasta-hero-banner .hero-headline {
+        padding-top: 101px;
+        padding-left: 30px;
+        width: auto;
+    }
+    .shasta-hero-banner .hero-headline h2 {
+        text-transform: uppercase;
+        color: #001951;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 50px;
+        letter-spacing: .1em;
+    }
+    .elevates-hero-banner .hero-headline {
+        padding-top: 101px;
+        padding-left: 30px;
+        width: auto;
+    }
+    .elevates-hero-banner .hero-headline h2 {
+        text-transform: uppercase;
+        color: #001951;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 50px;
+        letter-spacing: .1em;
+    }
+    .founder-hero-banner .hero-headline {
+        padding-top: 101px;
+        padding-left: 30px;
+        width: auto;
+    }
+    .founder-hero-banner .hero-headline h2 {
+        text-transform: uppercase;
+        color: #001951;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 50px;
+        letter-spacing: .1em;
+    }
+    .revenue-headline {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 50px;
+        text-transform: capitalize;
+        color: #00a7e1;
+        margin-bottom: 50px;
+    }
+    .bio-banner .bio-detail-section {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .bio-banner .bio-detail-section h2 {
+        text-transform: uppercase;
+        color: #001951;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: .1em;
+    }
+    .d-none-visible{
+        visibility: hidden;
+    }
 }
