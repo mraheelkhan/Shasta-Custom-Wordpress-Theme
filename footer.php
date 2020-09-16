@@ -89,7 +89,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
 						<div class="row hide" id="footer2">
 							<div class="col-md-6">
 								<div class="row">
-									<div class="col-md-6 m-0 p-0">
+									<div class="col-md-6 m-0">
 										<div class="footer-about-shasta">
 											<h3>
 												<strong>
@@ -106,7 +106,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6  m-0 p-0">
+									<div class="col-md-6  m-0">
 										<div class="footer-about-shasta">
 											<img class="image-map" src="<?= site_url() . $image_dir;?>googlemap1.png"/>
 										</div>
@@ -116,7 +116,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
 							</div>
 							<div class="col-md-6">
 								<div class="row">
-									<div class="col-md-6  m-0 p-0">
+									<div class="col-md-6  m-0">
 										<div class="footer-about-shasta">
 											<h3>
 											<strong> SAN FRANCISCO </strong>
@@ -131,7 +131,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6 m-0 p-0">
+									<div class="col-md-6 m-0">
 										<div class="footer-about-shasta">
 											<img class="image-map" src="<?= site_url() . $image_dir;?>googlemap2.png"/>
 										</div>
@@ -147,7 +147,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
 								<div class="footer-social-media">
 
 									<ul>
-										<li class="social-media-item-linked-in">
+										<li class="social-media-item-linked-in" style="margin-left:0;">
 											<a href="#">
 												<i class="fa fa-linkedin fa-lg"></i>
 											</a>

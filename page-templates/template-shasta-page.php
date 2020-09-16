@@ -43,237 +43,212 @@ get_header();
                 <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
                     <a href="<?= site_url() . '/bio-details';?>">
                     <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
+                    <div class="overlay">
+                        <h2 class="overlay-text-content">Scuba Diver <br>
+                            & Shark Lover</h2>
+                    </div>
                     <div class="person-info-detail">
                         <p>
                         Avery <br>Cannon
                         </p>
                         <div class="divider-person"></div>
-                        <div class="middle">
-                            <div class="text">John Doe</div>
-                        </div>
                     </div>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
+                    
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
                     <a href="<?= site_url() . '/bio-details';?>">
                     <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
+                    <div class="overlay">
+                        <h2 class="overlay-text-content">Scuba Diver <br>
+                            & Shark Lover</h2>
+                    </div>
                     <div class="person-info-detail">
                         <p>
                         Avery <br>Cannon
                         </p>
                         <div class="divider-person"></div>
-                        <div class="middle">
-                            <div class="text">John Doe</div>
-                        </div>
                     </div>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
+                    
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
                     <a href="<?= site_url() . '/bio-details';?>">
                     <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
+                    <div class="overlay">
+                        <h2 class="overlay-text-content">Scuba Diver <br>
+                            & Shark Lover</h2>
+                    </div>
                     <div class="person-info-detail">
                         <p>
                         Avery <br>Cannon
                         </p>
                         <div class="divider-person"></div>
-                        <div class="middle">
-                            <div class="text">John Doe</div>
-                        </div>
                     </div>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
+                    
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
                     <a href="<?= site_url() . '/bio-details';?>">
                     <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
+                    <div class="overlay">
+                        <h2 class="overlay-text-content">Scuba Diver <br>
+                            & Shark Lover</h2>
+                    </div>
                     <div class="person-info-detail">
                         <p>
                         Avery <br>Cannon
                         </p>
                         <div class="divider-person"></div>
-                        <div class="middle">
-                            <div class="text">John Doe</div>
-                        </div>
                     </div>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
+                    
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
                     <a href="<?= site_url() . '/bio-details';?>">
                     <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
+                    <div class="overlay">
+                        <h2 class="overlay-text-content">Scuba Diver <br>
+                            & Shark Lover</h2>
+                    </div>
                     <div class="person-info-detail">
                         <p>
                         Avery <br>Cannon
                         </p>
                         <div class="divider-person"></div>
-                        <div class="middle">
-                            <div class="text">John Doe</div>
-                        </div>
                     </div>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
+                    
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
                     <a href="<?= site_url() . '/bio-details';?>">
                     <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
+                    <div class="overlay">
+                        <h2 class="overlay-text-content">Scuba Diver <br>
+                            & Shark Lover</h2>
+                    </div>
                     <div class="person-info-detail">
                         <p>
                         Avery <br>Cannon
                         </p>
                         <div class="divider-person"></div>
-                        <div class="middle">
-                            <div class="text">John Doe</div>
-                        </div>
                     </div>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
+                    
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
                     <a href="<?= site_url() . '/bio-details';?>">
                     <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
+                    <div class="overlay">
+                        <h2 class="overlay-text-content">Scuba Diver <br>
+                            & Shark Lover</h2>
+                    </div>
                     <div class="person-info-detail">
                         <p>
                         Avery <br>Cannon
                         </p>
                         <div class="divider-person"></div>
-                        <div class="middle">
-                            <div class="text">John Doe</div>
-                        </div>
                     </div>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
+                    
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
                     <a href="<?= site_url() . '/bio-details';?>">
                     <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
+                    <div class="overlay">
+                        <h2 class="overlay-text-content">Scuba Diver <br>
+                            & Shark Lover</h2>
+                    </div>
                     <div class="person-info-detail">
                         <p>
                         Avery <br>Cannon
                         </p>
                         <div class="divider-person"></div>
-                        <div class="middle">
-                            <div class="text">John Doe</div>
-                        </div>
                     </div>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
+                    
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
                     <a href="<?= site_url() . '/bio-details';?>">
                     <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
+                    <div class="overlay">
+                        <h2 class="overlay-text-content">Scuba Diver <br>
+                            & Shark Lover</h2>
+                    </div>
                     <div class="person-info-detail">
                         <p>
                         Avery <br>Cannon
                         </p>
                         <div class="divider-person"></div>
-                        <div class="middle">
-                            <div class="text">John Doe</div>
-                        </div>
                     </div>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
+                    
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
                     <a href="<?= site_url() . '/bio-details';?>">
                     <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
+                    <div class="overlay">
+                        <h2 class="overlay-text-content">Scuba Diver <br>
+                            & Shark Lover</h2>
+                    </div>
                     <div class="person-info-detail">
                         <p>
                         Avery <br>Cannon
                         </p>
                         <div class="divider-person"></div>
-                        <div class="middle">
-                            <div class="text">John Doe</div>
-                        </div>
                     </div>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
+                    
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
                     <a href="<?= site_url() . '/bio-details';?>">
                     <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
+                    <div class="overlay">
+                        <h2 class="overlay-text-content">Scuba Diver <br>
+                            & Shark Lover</h2>
+                    </div>
                     <div class="person-info-detail">
                         <p>
                         Avery <br>Cannon
                         </p>
                         <div class="divider-person"></div>
-                        <div class="middle">
-                            <div class="text">John Doe</div>
-                        </div>
                     </div>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
+                    
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
                     <a href="<?= site_url() . '/bio-details';?>">
                     <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
+                    <div class="overlay">
+                        <h2 class="overlay-text-content">Meet <br>
+                            & Shark Lover</h2>
+                    </div>
                     <div class="person-info-detail">
                         <p>
                         Avery <br>Cannon
                         </p>
                         <div class="divider-person"></div>
-                        <div class="middle">
-                            <div class="text">John Doe</div>
-                        </div>
                     </div>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
+                    
                     </a>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
                     <a href="<?= site_url() . '/bio-details';?>">
                     <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
+                    <div class="overlay">
+                        <h2 class="overlay-text-content">Scuba Diver <br>
+                            & Shark Lover</h2>
+                    </div>
                     <div class="person-info-detail">
                         <p>
                         Avery <br>Cannon
                         </p>
                         <div class="divider-person"></div>
-                        <div class="middle">
-                            <div class="text">John Doe</div>
-                        </div>
                     </div>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
+                    
                     </a>
                 </div>
+                
                 
                 <!-- <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
                     <a href="<?= site_url() . '/bio-details';?>">

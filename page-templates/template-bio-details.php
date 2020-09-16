@@ -28,7 +28,7 @@ get_header();
                         </div>
                 <div class="row">
                 
-                    <div class="col-md-7">
+                    <div class="col-md-8">
                         <div class="bio-name">
                             <h2>Jason <br/> Pressman</h2>
                             <div class="divider-person"></div>

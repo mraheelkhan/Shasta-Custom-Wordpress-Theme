@@ -112,7 +112,7 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
     margin: 50px 0px;
 }
 .site-info .footer-about-shasta{
-    margin: 50px;
+    margin: 40px;
 }
 .site-info .footer-about-shasta h3{
     text-transform: uppercase;
@@ -167,7 +167,7 @@ a:hover {
 }
 
 .footer-credit{
-    margin: 25px 50px;
+    margin: 25px 40px;
 }
 .footer-credit p {
     color: $white-color;
@@ -359,7 +359,7 @@ a:hover {
 }
 
 .bio-description{
-    margin: 20px 10px;
+    margin: 20px 0px;
 }
 .bio-back-button a{
     background: transparent;
@@ -369,6 +369,9 @@ a:hover {
     text-transform: uppercase;
     color: $dark-blue-color;
     font-weight: bold;
+}
+.bio-social-media{
+    margin-left: -10px;
 }
 
 // ###############################
@@ -477,7 +480,7 @@ a:hover {
     right: 40px;
 }
 .accordion-section .panel-default .panel-title a.collapsed:after {
-    content: "\f107";
+    content: "\f105";
     
     color: #1f7de2;
      
@@ -490,7 +493,7 @@ a:hover {
     margin-bottom: 6px;
 }
 .accordion-section .panel-default .panel-body p {
-    padding: 10px;
+    padding: 0px;
 }
 
 
@@ -595,9 +598,10 @@ a:hover {
     font-weight: 700;
     font-size: 45px;
     line-height: 50px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     color: $light-blue-color;
     margin-bottom: 50px;
+    letter-spacing: 0.15em;
 }
 .revenue-description{
     margin-bottom: 50px;
@@ -606,7 +610,7 @@ a:hover {
     font-weight: bold;
     font-size: 22px;
     line-height: 30px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .revenue-light-lines {
@@ -621,6 +625,7 @@ a:hover {
     line-height: 30px;
     text-transform: uppercase;
     color: $light-blue-color;
+    letter-spacing: 0.15em;
 }
 .divider-revenue-head{
     height:5px; 
@@ -687,7 +692,9 @@ a:hover {
     z-index: 100;
 }
 
-  
+.person-info-detail > p {
+    margin-bottom: 0.5rem;
+}
 
 .overlay {
     position: absolute;
@@ -699,18 +706,30 @@ a:hover {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #00A7E1;
+    background-color:rgba(0, 167, 225, 0.8);;
     z-index: 1000;
-  }
-  .overlay:hover {
+}
+.person-info-detail {
+    transition: .5s ease;
+}
+.overlay:hover {
     opacity: 0.6;
-    padding-top:100px;
-    padding-left:20px;
-    font-size:18px;
-  }
-  .image_overlay:hover .overlay {
+    padding-top: 144px;
+    padding-left: 34px;
+    font-size: 18px;
+}
+.overlay:hover ~ .person-info-detail{
+    transition: .5s ease;
+    display: none;
+    
+}
+.image_overlay:hover .overlay {
     opacity: 1;
-    }
+}
+.overlay-text-content{
+    font-size: 22px;
+}
+
 
 // ##################################
 // ########### MEDIA QUERIES ########

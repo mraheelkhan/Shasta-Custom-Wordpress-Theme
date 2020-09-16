@@ -89,16 +89,12 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                 <div class="panel panel-default">
                                     <div class="panel-heading pl-0 pr-3 pb-3 pt-3 mb-1" role="tab" id="heading3">
                                         <h3 class="panel-title">
-                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#" aria-expanded="true" aria-controls="collapse3">
                                                 Can Solodev CMS handle multiple websites?
                                             </a>
                                         </h3>
                                     </div>
-                                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                        <div class="panel-body px-1 mb-1">
-                                            <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
-                                        </div>
-                                    </div>
+                                    
                                 </div>
 
                                 <div class="panel panel-default">
@@ -109,11 +105,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                             </a>
                                         </h3>
                                     </div>
-                                    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                        <div class="panel-body px-1 mb-1">
-                                            <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
-                                        </div>
-                                    </div>
+                                  
                                 </div>
                                 <div class="panel panel-default">
                                     <div class="panel-heading pl-0 pr-3 pb-3 pt-3 mb-1" role="tab" id="heading3">
@@ -123,11 +115,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                             </a>
                                         </h3>
                                     </div>
-                                    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                        <div class="panel-body px-1 mb-1">
-                                            <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
-                                        </div>
-                                    </div>
+                                   
                                 </div>
                                 <div class="panel panel-default">
                                     <div class="panel-heading pl-0 pr-3 pb-3 pt-3 mb-1" role="tab" id="heading3">
@@ -137,11 +125,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                             </a>
                                         </h3>
                                     </div>
-                                    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                        <div class="panel-body px-1 mb-1">
-                                            <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
-                                        </div>
-                                    </div>
+                                   
                                 </div>
                             </div>
 

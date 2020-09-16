@@ -77,7 +77,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                             </h3>
                                         </div>
                                         <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body px-1 mb-1">
+                                            <div class="panel-body mb-1">
                                                 <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                             </div>
                                         </div>
@@ -92,7 +92,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                             </h3>
                                         </div>
                                         <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body px-1 mb-1">
+                                            <div class="panel-body mb-1">
                                                 <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                             </div>
                                         </div>
@@ -106,7 +106,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                             </h3>
                                         </div>
                                         <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body px-1 mb-1">
+                                            <div class="panel-body mb-1">
                                                 <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                             </div>
                                         </div>
@@ -120,7 +120,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                             </h3>
                                         </div>
                                         <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body px-1 mb-1">
+                                            <div class="panel-body mb-1">
                                                 <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                             </div>
                                         </div>
@@ -134,7 +134,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                             </h3>
                                         </div>
                                         <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body px-1 mb-1">
+                                            <div class="panel-body mb-1">
                                                 <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                             </div>
                                         </div>
@@ -148,7 +148,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                             </h3>
                                         </div>
                                         <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body px-1 mb-1">
+                                            <div class="panel-body mb-1">
                                                 <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                             </div>
                                         </div>
@@ -162,16 +162,16 @@ $image_dir = "/wp-content/themes/understrap/img/";
             </div>
         </div>
         <div class="people-labs mt-5">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-6 pl-5 mt-5">
-                        <h2 class="revenue-headline pl-5"> People </h2>
-                        <p class="revenue-subhead pl-5">
+                    <div class="col-md-4 mt-5">
+                        <h2 class="revenue-headline"> People </h2>
+                        <p class="revenue-subhead">
                         What does it take to find, keep your most important asset?
                         </p>
-                        <p class="revenue-description pl-5">You have a great team, they're scrappy and have gotten you this far. But what will your team need to look like next year? And how will your culture evolve? Find out what will work best for you through our people labs.</p>
+                        <p class="revenue-description">You have a great team, they're scrappy and have gotten you this far. But what will your team need to look like next year? And how will your culture evolve? Find out what will work best for you through our people labs.</p>
     
-                        <div class="row  pl-5">
+                        <div class="row ">
                                 <div class="col-md-6">
                                     <div class="active-head-revenue-labs">
                                         <h2> People Labs </h2>
@@ -183,7 +183,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                 </div>
                             </div>
     
-                            <section class="accordion-section clearfix mt-3 pl-5" aria-label="Question Accordions">
+                            <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
                                 <div class="">
                                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                         <div class="panel panel-default">
@@ -195,7 +195,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                                 </h3>
                                             </div>
                                             <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                                <div class="panel-body px-1 mb-1">
+                                                <div class="panel-body mb-1">
                                                     <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                                 </div>
                                             </div>
@@ -210,7 +210,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                                 </h3>
                                             </div>
                                             <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                                <div class="panel-body px-1 mb-1">
+                                                <div class="panel-body mb-1">
                                                     <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                                 </div>
                                             </div>
@@ -224,7 +224,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                                 </h3>
                                             </div>
                                             <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                                <div class="panel-body px-1 mb-1">
+                                                <div class="panel-body mb-1">
                                                     <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                                 </div>
                                             </div>
@@ -235,7 +235,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                 </div>
                             </section>
                     </div>
-                    <div class="col-md-6 m-0 p-0 woman-person">
+                    <div class="col-md-6 offset-md-2 p-0 woman-person">
                     </div>
                 </div>
             </div>
@@ -275,7 +275,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                             </h3>
                                         </div>
                                         <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body px-1 mb-1">
+                                            <div class="panel-body mb-1">
                                                 <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                             </div>
                                         </div>
@@ -290,7 +290,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                             </h3>
                                         </div>
                                         <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body px-1 mb-1">
+                                            <div class="panel-body mb-1">
                                                 <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                             </div>
                                         </div>
@@ -340,7 +340,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                             </h3>
                                         </div>
                                         <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body px-1 mb-1">
+                                            <div class="panel-body mb-1">
                                                 <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                             </div>
                                         </div>
@@ -355,7 +355,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                             </h3>
                                         </div>
                                         <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body px-1 mb-1">
+                                            <div class="panel-body mb-1">
                                                 <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                             </div>
                                         </div>
@@ -369,7 +369,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                             </h3>
                                         </div>
                                         <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body px-1 mb-1">
+                                            <div class="panel-body mb-1">
                                                 <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                             </div>
                                         </div>
@@ -383,7 +383,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                             </h3>
                                         </div>
                                         <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body px-1 mb-1">
+                                            <div class="panel-body mb-1">
                                                 <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
                                             </div>
                                         </div>
