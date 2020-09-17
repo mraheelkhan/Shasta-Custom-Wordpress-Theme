@@ -40,7 +40,7 @@ get_header();
     <div class="home-banner">
     <!-- video would be uploaded here  -->
     <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+            <source src="http://shastadev1.wpengine.com/wp-content/uploads/2020/09/366Y0UYR.compressed.mp4" type="video/mp4">
         </video>
         <div class="image">
             
