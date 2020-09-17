@@ -40,12 +40,12 @@ $image_dir = "/wp-content/themes/understrap/img/";
 								</li>
 										
 								<li class="footer-menu-item">
-									<a href="#">
+									<a href="https://www.fundpanel.io/Login">
 										lp sign in
 									</a>
 								</li>
 								<li class="footer-menu-item">
-									<a href="#">
+									<a href="javascript:void(0);">
 										jobs
 									</a>
 								</li>

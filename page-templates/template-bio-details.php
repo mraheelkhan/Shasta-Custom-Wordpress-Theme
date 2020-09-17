@@ -20,15 +20,20 @@ get_header();
 <div class="homepage">
 
     <div class="bio-banner">
+        
         <img class="image" src="<?= site_url() . $image_dir ?>bio-details-image.png"/>
+        
         <div class="bio-detail-section">
+        <div class="container-fluid">
+                    <div class="bio-back-button float-right">
+                        <a href="<?= site_url() . '/shasta'; ?>" class="btn btn-primary btn-bio-back">Back</a>
+                    </div>
+            </div>
             <div class="container">
-            <div class="bio-back-button float-right">
-                            <a href="<?= site_url() . '/shasta'; ?>" class="btn btn-primary btn-bio-back">Back</a>
-                        </div>
+            
                 <div class="row">
                 
-                    <div class="col-md-8">
+                    <div class="col-md-7">
                         <div class="bio-name">
                             <h2>Jason <br/> Pressman</h2>
                             <div class="divider-person"></div>
@@ -65,6 +70,7 @@ get_header();
                     </div>
                 </div>
             </div>
+            
         </div>
         <div class="bio-description d-block d-sm-none">
             <p>

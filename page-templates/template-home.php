@@ -12,10 +12,36 @@ defined( 'ABSPATH' ) || exit;
 
 get_header();
 ?>
+<style>
+    #main-nav {
+        height: 86px;
+        position: absolute;
+        width: 100%;
+        background: transparent;
+        z-index: 100;
+    }
+    .bg-primary {
+        background-color: transparent!important;
+    }
+    .navbar-default .navbar-nav .nav-link {
+        color: #fff;
+    }
+    @media only screen and (max-width: 769px) {
+        .navbar-default .navbar-nav .nav-link {
+            color: #000;
+        }
+        .home-banner{
+            height: auto;
+        }
+    }
+</style>
 <div class="homepage">
 
     <div class="home-banner">
     <!-- video would be uploaded here  -->
+    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+        </video>
         <div class="image">
             
         </div>

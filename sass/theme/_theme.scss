@@ -16,15 +16,23 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
 }
 .home-banner{
     // background: black;
+    position: relative;
+    // background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
 }
 
 .home-banner .image{
-    background-image: url('../img/homebanner.png');
-    height: 500px;
-    min-height: 300px;
-    max-height: 600;
+    // background-image: url('../img/homebanner.png');
+    // height: 500px;
+    // min-height: 300px;
+    // max-height: 600;
+    
 }
 .below-banner-section{
+    
     padding-top: 30px;
     padding-bottom: 100px;
 }
@@ -50,6 +58,20 @@ h1, h2, h3 ,h4 ,h5 ,h6, p, span, a {
 .below-banner-section .below-banner-text .after-text-line{
     
 }
+.home-banner video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -10;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
 
 .on-click-footer-section{
     padding-top: 10px;
@@ -361,6 +383,11 @@ a:hover {
 .bio-description{
     margin: 20px 0px;
 }
+.bio-back-button {
+    position: absolute;
+    right: 0px;
+        top: 0px;
+}
 .bio-back-button a{
     background: transparent;
     border: 0;
@@ -369,6 +396,7 @@ a:hover {
     text-transform: uppercase;
     color: $dark-blue-color;
     font-weight: bold;
+    
 }
 .bio-social-media{
     margin-left: -10px;
@@ -436,8 +464,8 @@ a:hover {
 .middle-navigation .nav-link{
     color: $dark-blue-color!important;
 }
-.middle-navigation .active{
-    color: $light-blue-color;
+.middle-navigation .nav-item .active{
+    color: $light-blue-color !important;
     border-bottom: 5px solid $light-blue-color;
 }
 .middle-navigation .active a{
@@ -547,7 +575,7 @@ a:hover {
     background-image: url('../img/elevates-hero.png');
     background-position: center;
     background-size: cover;
-    height: 120VH;
+    height: 100VH;
     min-height: 100vh;
     background-color: #001951;
 }
@@ -679,7 +707,6 @@ a:hover {
     display:block;
 }
 #navbarNavDropdown{
-    background: #fff;
     padding: 25px;
 }
 .white-color{
@@ -729,6 +756,12 @@ a:hover {
 .overlay-text-content{
     font-size: 22px;
 }
+.nav-pills .nav-link {
+    border-radius: 0;
+}
+.tab-pane{
+    padding-top: 100px;
+}
 
 
 // ##################################
@@ -740,6 +773,9 @@ a:hover {
 }
   
 @media only screen and (max-width: 769px) {
+    #navbarNavDropdown{
+        background: #fff;
+    }
     .shasta-hero-banner .hero-headline {
         padding-top: 101px;
         padding-left: 30px;
@@ -809,4 +845,10 @@ a:hover {
     .elevates-hero-banner .image {
         background-position: right;
     }
+    .bio-back-button {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    
 }
