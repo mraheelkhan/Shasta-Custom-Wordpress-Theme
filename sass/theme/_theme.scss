@@ -850,5 +850,17 @@ a:hover {
         right: 0px;
         top: 0px;
     }
-    
+    #main-nav {
+        height: auto !important;
+        padding: 2rem 1rem  !important;
+    }
+	#navbarNavDropdown { padding:0px;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        right: 0;
+    }
+    div#navbarNavDropdown ul {
+            padding: 0px 15px 25px;
+    }
 }
