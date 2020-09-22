@@ -23,7 +23,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
     <div class="elevates-hero-banner">
         <div class="image">
             <div class="hero-headline">
-                <h2>reach for the<br /> next level</h2>
+                <h2><?php the_field('head_line1'); ?><br /><?php the_field('head_line2'); ?></h2>
                 <div class="shasta-hero-divider-xs"></div>
             </div>
             <div class="image-pattern">
@@ -35,7 +35,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
     <div class="elevates-below-banner-section">
         <div class="container">
             <div class="elevates-below-banner-text">
-                <p>To take your company further you’ll need to go beyond product-market fit and your<br /> first sales. That’s why we created Elevate, a series of hands-on labs where our team of <br />experts work directly with founders–improving how they drive revenue, build teams,<br /> deploy technology and implement processes</p>
+                <p><?php the_field('description');?></p>
             </div>
 
         </div>
