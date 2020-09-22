@@ -1,6 +1,7 @@
 <?php
 /**
  * Template Name: Template Bio Details
+ * Template Post Type: bio
  *
  * Template for displaying a page without sidebar even if a sidebar widget is published.
  *
@@ -21,7 +22,7 @@ get_header();
 
     <div class="bio-banner">
         
-        <img class="image" src="<?= site_url() . $image_dir ?>bio-details-image.png"/>
+        <img class="image" src="<?php the_field('banner_image', $bio->ID); ?>"/>
         
         <div class="bio-detail-section">
         <div class="container-fluid">
@@ -35,11 +36,11 @@ get_header();
                 
                     <div class="col-md-7">
                         <div class="bio-name">
-                            <h2>Jason <br/> Pressman</h2>
+                            <h2><?php the_field("first_name"); ?> <br/> <?php the_field("last_name"); ?></h2>
                             <div class="divider-person"></div>
                         </div>
                         <div class="bio-designation">
-                            <p>Managing Director</p>
+                            <p><?php the_field("designations"); ?></p>
                         </div>
 
                         <div class="d-none d-lg-block" style="height:50px" ></div>
@@ -48,12 +49,12 @@ get_header();
 
                             <ul style="margin:0; padding:0;">
                                 <li class="social-media-item-linked-in">
-                                    <a href="#">
+                                    <a href="<?php the_field("linked-in"); ?>">
                                         <i class="fa fa-linkedin fa-lg"></i>
                                     </a>
                                 </li>
                                 <li class="social-media-item-twitter">
-                                    <a href="#">
+                                    <a href="<?php the_field("twitter"); ?>">
                                         <i class="fa fa-twitter fa-lg"></i>
                                     </a>
                                 </li>
@@ -62,9 +63,7 @@ get_header();
 
                         <div class="bio-description d-none-visible d-md-block">
                             <p>
-                            A company builder who played an integral role in the development of one of today’s largest online businesses, Walmart.com, Jason acts as a thought partner, advocate, and counselor to entrepreneurs looking to take their companies from initial proof of product-market fit to industry category leadership. </p>
-                            <p>Jason led the firm’s investments in and currently serves on the Boards of: Zuora (NYSE: ZUO), Nextdoor, LeanPlum, Smule, and ValiMail. Jason also led the firm’s investments in companies such as Adometry (acquired by Google), Demdex (acquired by Adobe), Glint (acquired by LinkedIn), Steelbrick (acquired by Salesforce), and StrongLoop (acquired by IBM), among others.</p>
-                            <p>Jason holds an M.B.A. from Stanford Graduate School of Business and a B.S. in Finance from University of Maryland. He is an avid scuba diver and a passionate supporter of shark conservation
+                            <?php the_field("details"); ?>
                             </p>
                         </div>
                     </div>
@@ -74,9 +73,7 @@ get_header();
         </div>
         <div class="bio-description d-block d-sm-none">
             <p>
-            A company builder who played an integral role in the development of one of today’s largest online businesses, Walmart.com, Jason acts as a thought partner, advocate, and counselor to entrepreneurs looking to take their companies from initial proof of product-market fit to industry category leadership. </p>
-            <p>Jason led the firm’s investments in and currently serves on the Boards of: Zuora (NYSE: ZUO), Nextdoor, LeanPlum, Smule, and ValiMail. Jason also led the firm’s investments in companies such as Adometry (acquired by Google), Demdex (acquired by Adobe), Glint (acquired by LinkedIn), Steelbrick (acquired by Salesforce), and StrongLoop (acquired by IBM), among others.</p>
-            <p>Jason holds an M.B.A. from Stanford Graduate School of Business and a B.S. in Finance from University of Maryland. He is an avid scuba diver and a passionate supporter of shark conservation
+           <?php the_field("details"); ?>
             </p>
         </div>
     </div>

@@ -50,8 +50,10 @@ get_header();
     <div class="below-banner-section">
         <div class="container">
             <div class="below-banner-text">
-                <h2>we helped <span class="text-light-blue">tien</span></h2>
-                <h2 class="h2-class">reach new heights 
+                <h2>
+                    <?php the_field("head_line1"); ?>
+                    <span class="text-light-blue"><?php the_field("head_line_blue"); ?></span></h2>
+                <h2 class="h2-class"><?php the_field("head_line2"); ?> 
                 </h2>
                 <div class="divider-reach"></div>
             </div>

@@ -22,7 +22,7 @@ get_header();
     <div class="shasta-hero-banner">
         <div class="image">
             <div class="hero-headline">
-                <h2>the expert in <br/> early-stage <br/>enterprise SAAS</h2>
+                <?php the_field("shasta_headline"); ?>
                 <div class="shasta-hero-divider-xs"></div>
             </div>
         </div>
@@ -31,424 +31,48 @@ get_header();
     <div class="shasta-below-banner-section">
         <div class="container">
             <div class="shasta-below-banner-text">
-                <p>Challenging times are when innovative ideas, founders, and businesses create <br/>unprecedented value. That's why we elevate the most promising founders of <br/> early-stage enterprise SaaS companies with the capital and expertise to become the <br/>biggest successes in the sector that provides the biggest returns.</p>
+                <p> <?php the_field("shasta_description"); ?></p>
             </div>
     
         </div>
     </div>
+    <?php 
+        $bios = get_posts(array(
+            'posts_per_page'	=> -1,
+            'post_type'			=> 'bio'
+        ));
+    ?>
+    <pre>
+	<?= print_r($bios); ?>
+	</pre>
     <div class="shasta-persons-list">
         <div class="container-fluid">
             <div class="row">
-                
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
-                    <div class="person-info-detail">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
-                    <div class="person-info-detail">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
-                    <div class="person-info-detail">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
-                    <div class="person-info-detail">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
-                    <div class="person-info-detail">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
-                    <div class="person-info-detail">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
-                    <div class="person-info-detail">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
-                    <div class="person-info-detail">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
-                    <div class="person-info-detail">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
-                    <div class="person-info-detail">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
-                    <div class="person-info-detail">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Meet <br>
-                            & Shark Lover</h2>
-                    </div>
-                    <div class="person-info-detail">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <img class="image_overlay" style="max-width: 100%; width:100%" src="<?= site_url() . $image_dir?>jason_pressman.png"/>
-                    <div class="overlay">
-                        <h2 class="overlay-text-content">Scuba Diver <br>
-                            & Shark Lover</h2>
-                    </div>
-                    <div class="person-info-detail">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    
-                    </a>
-                </div>
+               <?php if ($bios): ?>
+                <?php foreach( $bios as $bio ): ?>
+                    <?php setup_postdata( $bio ); ?>
+                        <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
+                            <a href="<?= $bio->guid; ?>">
+                            <img class="image_overlay" style="max-width: 100%; width:100%" src="<?php the_field('image', $bio->ID); ?>"/>
+                            <div class="overlay">
+                                <h2 class="overlay-text-content"><?php the_field("designations", $bio->ID); ?></h2>
+                            </div>
+                            <div class="person-info-detail">
+                                <p>
+                                <?php the_field("first_name", $bio->ID); ?> <br><?php the_field("last_name", $bio->ID); ?>
+                                </p>
+                                <div class="divider-person"></div>
+                            </div>
+                            
+                            </a>
+                        </div>
+                    <?php wp_reset_postdata(); ?>
+                <?php endforeach; ?>
+                <?php endif ?>
                 
                 
-                <!-- <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>jason_pressman.png);">
-                        <p>
-                        Jason <br>Pressman
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>ravi_mohan.png);">
-                        <p>
-                        Ravi <br>Mohan
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Eiena <br>Ennouri
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>jacub.png);">
-                        <p>
-                        Jacob <br>Mullins
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>catlin.png);">
-                        <p>
-                        Caitlin <br>Swofford
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>isaac.png);">
-                        <p>
-                        Issac <br>Roth
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>nitin.png);">
-                        <p>
-                        Nitin <br>Chopra
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>ken_so.png);">
-                        <p>
-                        Ken <br>So
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Vy <br>Tran
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>alex.png);">
-                        <p>
-                        Alex <br>Priento
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>mike_trig.png);">
-                        <p>
-                        Mike <br>Trig
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Rose <br>Kelly
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 m-0 p-0">
-                    <a href="<?= site_url() . '/bio-details';?>">
-                    <div class="person-image person-image-1" style="background-image: url(<?php echo site_url() . $image_dir ?>person1.png);">
-                        <p>
-                        Avery <br>Cannon
-                        </p>
-                        <div class="divider-person"></div>
-                    </div>
-                    </a>
-                </div> -->
+                
+                
             </div>
 
             <div class="row">
