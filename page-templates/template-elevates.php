@@ -46,17 +46,17 @@ $image_dir = "/wp-content/themes/understrap/img/";
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-md-4  mt-5">
-                        <h2 class="revenue-headline"> REVENUE </h2>
+                        <h2 class="revenue-headline"> <?php the_field('section1_healdine');?> </h2>
                         <p class="revenue-subhead">
-                            You got your first customers and your first $1M, now what?
+                            <?php the_field('section1_sub_head');?>
                         </p>
-                        <p class="revenue-description">Learn what it takes to put in all the pieces to get to $10M and beyond in our revenue labs.</p>
+                        <p class="revenue-description"> <?php the_field('section1_description');?></p>
                     </div>
                     <div class="col-md-6 offset-md-2 mt-5">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="active-head-revenue-labs">
-                                    <h2> REVENUE LABS </h2>
+                                    <h2> <?php the_field('section1_question_title');?> </h2>
                                     <div class="divider-revenue-head"></div>
                                 </div>
                             </div>
@@ -68,91 +68,24 @@ $image_dir = "/wp-content/themes/understrap/img/";
                         <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
                             <div class="">
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <?php $section1_quick_answers  = get_field("section1_quick_answers"); ?>
+                                <?php $index = 0; ?>
+                                    <?php foreach($section1_quick_answers as $quick):?>
                                     <div class="panel panel-default">
                                         <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                             <h3 class="panel-title">
-                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
-                                                    Marketing
+                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $index?>" aria-expanded="true" aria-controls="collapse<?php echo $index?>">
+                                                    <?php echo $quick['headline'];?>
                                                 </a>
                                             </h3>
                                         </div>
-                                        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                                        <div id="collapse<?php echo $index;?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                                             <div class="panel-body mb-1">
-                                                <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
+                                                <p><?php echo $quick['description']; ?></p>
                                             </div>
                                         </div>
                                     </div>
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
-                                            <h3 class="panel-title">
-                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
-                                                    Sales
-                                                </a>
-                                            </h3>
-                                        </div>
-                                        <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body mb-1">
-                                                <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
-                                            <h3 class="panel-title">
-                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
-                                                    Customer Success
-                                                </a>
-                                            </h3>
-                                        </div>
-                                        <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body mb-1">
-                                                <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
-                                            <h3 class="panel-title">
-                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true" aria-controls="collapse6">
-                                                    Print & Media
-                                                </a>
-                                            </h3>
-                                        </div>
-                                        <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body mb-1">
-                                                <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
-                                            <h3 class="panel-title">
-                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="true" aria-controls="collapse7">
-                                                    Business Development
-                                                </a>
-                                            </h3>
-                                        </div>
-                                        <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body mb-1">
-                                                <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
-                                            <h3 class="panel-title">
-                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="true" aria-controls="collapse8">
-                                                    Marketing Team Support Services
-                                                </a>
-                                            </h3>
-                                        </div>
-                                        <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body mb-1">
-                                                <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <?php $index++; endforeach;?>
                                 </div>
 
                             </div>
@@ -165,16 +98,17 @@ $image_dir = "/wp-content/themes/understrap/img/";
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 mt-5">
-                        <h2 class="revenue-headline"> People </h2>
+                        <h2 class="revenue-headline"> <?php the_field('section2_healdine');?> </h2>
                         <p class="revenue-subhead">
-                        What does it take to find, keep your most important asset?
+                            <?php the_field('section2_sub_head');?>
+                       
                         </p>
-                        <p class="revenue-description">You have a great team, they're scrappy and have gotten you this far. But what will your team need to look like next year? And how will your culture evolve? Find out what will work best for you through our people labs.</p>
+                        <p class="revenue-description"> <?php the_field('section2_description');?></p>
     
                         <div class="row ">
                                 <div class="col-md-6">
                                     <div class="active-head-revenue-labs">
-                                        <h2> People Labs </h2>
+                                        <h2> <?php the_field('section2_question_title');?> </h2>
                                         <div class="divider-revenue-head"></div>
                                     </div>
                                 </div>
@@ -186,50 +120,26 @@ $image_dir = "/wp-content/themes/understrap/img/";
                             <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
                                 <div class="">
                                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <?php $section2_quick_answers  = get_field("section2_quick_answers"); ?>
+                                     <?php $index = 100; ?>
+                                    <?php foreach($section2_quick_answers as $quick):?>
                                         <div class="panel panel-default">
                                             <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                                 <h3 class="panel-title">
-                                                    <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
-                                                        Our Design
+                                                    <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $index?>" aria-expanded="true" aria-controls="collapse<?php echo $index?>">
+                                                    <?php echo $quick['headline'];?>
                                                     </a>
                                                 </h3>
                                             </div>
-                                            <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                                            <div id="collapse<?php echo $index?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                                                 <div class="panel-body mb-1">
-                                                    <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
+                                                <p><?php echo $quick['description']; ?></p>
                                                 </div>
                                             </div>
                                         </div>
+                                        <?php $index++; endforeach;?>
     
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
-                                                <h3 class="panel-title">
-                                                    <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="true" aria-controls="collapse6">
-                                                        Culture
-                                                    </a>
-                                                </h3>
-                                            </div>
-                                            <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                                <div class="panel-body mb-1">
-                                                    <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="panel panel-default">
-                                            <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
-                                                <h3 class="panel-title">
-                                                    <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="true" aria-controls="collapse7">
-                                                        Talent Recruitment Platform
-                                                    </a>
-                                                </h3>
-                                            </div>
-                                            <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                                <div class="panel-body mb-1">
-                                                    <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
+                                    
                                     </div>
     
                                 </div>
@@ -244,17 +154,17 @@ $image_dir = "/wp-content/themes/understrap/img/";
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-md-4  mt-5">
-                        <h2 class="revenue-headline"> INFRASTRUCTURE </h2>
+                        <h2 class="revenue-headline"> <?php the_field('section3_healdine');?> </h2>
                         <p class="revenue-subhead">
-                        Are your technology and business stacks ready for growth?   
+                        <?php the_field('section3_sub_head');?> 
                         </p>
-                        <p class="revenue-description">Your infrastructure is solid but what happens at 10x or 100x the customers? Get prepared and plan ahead in our infrastructure labs.</p>
+                        <p class="revenue-description"> <?php the_field('section3_description');?></p>
                     </div>
                     <div class="col-md-6 offset-md-2 mt-5">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="active-head-revenue-labs">
-                                    <h2> IT LABS </h2>
+                                    <h2> <?php the_field('section3_question_title');?> </h2>
                                     <div class="divider-revenue-head"></div>
                                 </div>
                             </div>
@@ -266,36 +176,25 @@ $image_dir = "/wp-content/themes/understrap/img/";
                         <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
                             <div class="">
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <?php $section3_quick_answers  = get_field("section3_quick_answers"); ?>
+                                     <?php $index = 200; ?>
+                                    <?php foreach($section3_quick_answers as $quick):?>
                                     <div class="panel panel-default">
                                         <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                             <h3 class="panel-title">
-                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
-                                                    Data Architecture   
+                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $index?>" aria-expanded="true" aria-controls="collapse<?php echo $index?>">
+                                                <?php echo $quick['headline'];?>
                                                 </a>
                                             </h3>
                                         </div>
-                                        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                                        <div id="collapse<?php echo $index?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                                             <div class="panel-body mb-1">
-                                                <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
+                                                <p><?php echo $quick['description']; ?></p>
                                             </div>
                                         </div>
                                     </div>
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
-                                            <h3 class="panel-title">
-                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
-                                                    Corp Security Assessment
-                                                </a>
-                                            </h3>
-                                        </div>
-                                        <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body mb-1">
-                                                <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
+                                    <?php $index++; endforeach;?>
+                           
                                 </div>
 
                             </div>
@@ -309,17 +208,18 @@ $image_dir = "/wp-content/themes/understrap/img/";
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-md-4  mt-5">
-                        <h2 class="revenue-headline"> leadership </h2>
+                        <h2 class="revenue-headline"> <?php the_field('section4_healdine');?>  </h2>
                         <p class="revenue-subhead">
-                        Get ready to take your company to new heights?   
+                        <?php the_field('section4_sub_head');?> 
+                         
                         </p>
-                        <p class="revenue-description">You've brought the company this far, now it's time to go further. Become more than a founder and learn what it takes to be a growth leader in our leadership labs.</p>
+                        <p class="revenue-description"> <?php the_field('section4_description');?> </p>
                     </div>
                     <div class="col-md-6 offset-md-2  mt-5">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="active-head-revenue-labs">
-                                    <h2> LEADERSHIP LABS </h2>
+                                    <h2> <?php the_field('section4_question_title');?> </h2>
                                     <div class="divider-revenue-head"></div>
                                 </div>
                             </div>
@@ -328,67 +228,28 @@ $image_dir = "/wp-content/themes/understrap/img/";
                             </div>
                         </div>
 
-                        <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+                         <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
                             <div class="">
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                <?php $section4_quick_answers  = get_field("section4_quick_answers"); ?>
+                                     <?php $index = 400; ?>
+                                    <?php foreach($section4_quick_answers as $quick):?>
                                     <div class="panel panel-default">
                                         <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
                                             <h3 class="panel-title">
-                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
-                                                fund raising for series B   
+                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse<?php echo $index?>" aria-expanded="true" aria-controls="collapse<?php echo $index?>">
+                                                <?php echo $quick['headline'];?>
                                                 </a>
                                             </h3>
                                         </div>
-                                        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                                        <div id="collapse<?php echo $index?>" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                                             <div class="panel-body mb-1">
-                                                <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
+                                                <p><?php echo $quick['description']; ?></p>
                                             </div>
                                         </div>
                                     </div>
-
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
-                                            <h3 class="panel-title">
-                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
-                                                board management
-                                                </a>
-                                            </h3>
-                                        </div>
-                                        <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body mb-1">
-                                                <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
-                                            <h3 class="panel-title">
-                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
-                                                Company Management
-                                                </a>
-                                            </h3>
-                                        </div>
-                                        <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body mb-1">
-                                                <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading pl-0 pr-2 pt-2 pb-2 mb-1" role="tab" id="heading3">
-                                            <h3 class="panel-title">
-                                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
-                                                Coaching 
-                                                </a>
-                                            </h3>
-                                        </div>
-                                        <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
-                                            <div class="panel-body mb-1">
-                                                <p>Yes, Solodev CMS is built to handle the needs of any size company. With our Multi-Site Management, you will be able to easily manage all of your websites.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
+                                    <?php $index++; endforeach;?>
+                           
                                 </div>
 
                             </div>
