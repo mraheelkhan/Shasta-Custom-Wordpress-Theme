@@ -65,7 +65,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                             </div>
                         </div>
 
-                        <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+                        <section class="accordion-section clearfix mt-3 mb-3" aria-label="Question Accordions">
                             <div class="">
                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                 <?php $section1_quick_answers  = get_field("section1_quick_answers"); ?>
@@ -257,14 +257,14 @@ $image_dir = "/wp-content/themes/understrap/img/";
                     </div>
                 </div>
             </div>
-            <div class="container pt-5">
+            <!-- <div class="container pt-5">
             <div class="row pt-5">
                 <div class="col-md-12 pt-5">
-                <div class="arrow text-center">
+                    <div class="arrow text-center">
                         <i class="fa fa-chevron-down fa-lg"></i>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         </div>
         

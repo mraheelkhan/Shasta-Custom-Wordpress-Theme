@@ -87,7 +87,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
 						</div>
 
 						<div class="row hide" id="footer2">
-							<div class="col-md-6">
+							<div class="col-md-10">
 								<div class="row">
 									<div class="col-md-6 m-0">
 										<div class="footer-about-shasta">
@@ -114,31 +114,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
 									
 								</div>
 							</div>
-							<div class="col-md-6">
-								<div class="row">
-									<div class="col-md-6  m-0">
-										<div class="footer-about-shasta">
-											<h3>
-											<strong> SAN FRANCISCO </strong>
-											</h3>
-											<div class="footer-about-shasta-description">
-												<p>
-												27 South Park St., Suite 101 San Francisco, CA 94107
-												</p>
-												<h3 class="directions">
-													DIRECTIONS
-												</h3>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6 m-0">
-										<div class="footer-about-shasta">
-											<img class="image-map" src="<?= site_url() . $image_dir;?>googlemap2.png"/>
-										</div>
-									</div>
-									
-								</div>
-							</div>
+							
 							
 						</div>
 
@@ -212,6 +188,18 @@ $image_dir = "/wp-content/themes/understrap/img/";
 			map1.add("hide");
 			map2.remove("hide");
 			map22 = true;
+		}
+	}
+
+	window.onscroll = function() {myScrollFunction()};
+	var navbar = document.getElementById("main-nav");
+	var sticky = navbar.offsetTop;
+
+	function myScrollFunction() {
+		if (window.pageYOffset >= 100) {
+			navbar.classList.add("sticky")
+		} else {
+			navbar.classList.remove("sticky");
 		}
 	}
 </script>

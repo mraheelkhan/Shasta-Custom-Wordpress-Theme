@@ -21,7 +21,7 @@ get_header();
         z-index: 100;
     }
     .bg-primary {
-        background-color: transparent!important;
+        background-color: #0000007a!important;
     }
     .navbar-default .navbar-nav .nav-link {
         color: #fff;
@@ -61,7 +61,7 @@ get_header();
         </div>
     </div>
     <div class="on-click-footer-section">
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="arrow text-center">
@@ -69,7 +69,7 @@ get_header();
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
 
