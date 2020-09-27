@@ -535,7 +535,10 @@ a:hover {
     background-size: cover;
     height: 550px;
 }
-
+.saas  .accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f105";
+    color: #00a7e1;
+}
 .active-head > h2{
     font-weight: bold;
     font-size: 16px;
@@ -884,5 +887,11 @@ a:hover {
         position: absolute;
         bottom: 0;
         right: 12%;
+    }
+    .saas-headline {
+        font-size: 35px;
+    }
+    .middle-navigation .nav {
+        display: block;
     }
 }
