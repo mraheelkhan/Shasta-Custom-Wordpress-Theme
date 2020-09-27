@@ -195,6 +195,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
 	var navbar = document.getElementById("main-nav");
 	var sticky = navbar.offsetTop;
 
+	var footer = document.getElementById('wrapper-footer');
 	function myScrollFunction() {
 		if (window.pageYOffset >= 100) {
 			navbar.classList.add("sticky")
@@ -204,7 +205,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
 	}
 
 	
-		document.body.addEventListener("click", function(e) {
+		footer.addEventListener("click", function(e) {
 			e.stopPropagation()
 				document.getElementById("contactus").style.color = '';
 			map2.add("hide");

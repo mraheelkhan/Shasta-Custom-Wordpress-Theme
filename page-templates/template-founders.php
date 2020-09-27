@@ -111,16 +111,10 @@ $image_dir = "/wp-content/themes/understrap/img/";
                         <h2> <?php the_field('action_link_text'); ?></h2>
                         <div class="divider-active-head"></div>
                     </div>
-                </div>
-                <div class="col-md-4 mt-5">
-                    <div class="active-head ml-5">
-                        <h2> Exits</h2>
-                        <div class="divider-active-head"></div>
-                    </div>
-                </div>
-                <div class="col-md-3">
+					<div class="row">
+						<div class="col-md-6">
 
-                    <div class="categories-list">
+                   <div class="categories-list">
                         <?php $action_links = get_field('action_links'); ?>
                         <ul>
                             <?php foreach($action_links as $link): ?>
@@ -134,7 +128,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                     </div>
 
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-6">
                     <div class="categories-list">
                         <?php $action_links = get_field('action_links2'); ?>
                         <ul>
@@ -148,8 +142,17 @@ $image_dir = "/wp-content/themes/understrap/img/";
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="categories-list ml-5">
+						
+					</div>
+					 
+					
+                </div>
+                <div class="col-md-4 mt-5">
+                    <div class="active-head">
+                        <h2> Exits</h2>
+                        <div class="divider-active-head"></div>
+                    </div>
+					<div class="categories-list">
                         <?php $action_links = get_field('action_links3'); ?>
                         <ul>
                             <?php foreach($action_links as $link): ?>
