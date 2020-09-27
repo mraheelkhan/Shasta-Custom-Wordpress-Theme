@@ -57,7 +57,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                         <?php $index = 0; foreach($tabs as $tab):?>
                         <div class="tab-pane fade <?php if ($index == 0) echo 'show active'; ?>" id="pills-<?php echo $index; ?>" role="tabpanel" aria-labelledby="pills-<?php echo $index; ?>-tab">
                             <div class="saas">
-                                <div class="container">
+                                <div class="container-fluid">
                                     <div class="row">
                                         <div class="col-md-5 ">
                                             <h2 class="saas-headline"> <?php echo $tab['tab_name']; ?> </h2>

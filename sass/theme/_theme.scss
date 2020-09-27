@@ -564,7 +564,9 @@ a:hover {
     color: $light-blue-color;
     font-weight: 700;
 }
-
+.bg-primary {
+    background-color: #fff9!important;
+}
 
 
 // ###############################
@@ -583,7 +585,7 @@ a:hover {
     background-size: cover;
     height: 100VH;
     min-height: 100vh;
-    background-color: #001951;
+    // background-color: #001951;
 }
 
 .elevates-hero-banner .image-pattern {
@@ -738,9 +740,9 @@ a:hover {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
+    transition: 0s ease;
     background-color:rgba(0, 167, 225, 0.8);;
-    z-index: 1000;
+    z-index: 100;
 }
 .person-info-detail {
     // transition: .5s ease;
@@ -750,6 +752,7 @@ a:hover {
     padding-top: 144px;
     padding-left: 34px;
     font-size: 18px;
+    transition: 0.4s ease;
 }
 .overlay:hover ~ .person-info-detail{
     transition: .3s ease;
@@ -846,10 +849,13 @@ a:hover {
         visibility: hidden;
     }
     .shasta-hero-banner .image {
-        background-position: center;
+        background-position: left -622px bottom 0px;
+        background-repeat: no-repeat;
     }
     .elevates-hero-banner .image {
-        background-position: top;
+        background-position: left -680px bottom -75px;
+        background-repeat: no-repeat;
+        background-size: unset;
     }
     .bio-back-button {
         position: absolute;
@@ -874,9 +880,9 @@ a:hover {
         border-bottom: 0;
     }
     .elevates-hero-banner .image-pattern {
-        margin-left: 150px;
-        margin: auto;
-        width: 50%;
-        margin-top: 150px;
+        width: 70%;
+        position: absolute;
+        bottom: 0;
+        right: 12%;
     }
 }

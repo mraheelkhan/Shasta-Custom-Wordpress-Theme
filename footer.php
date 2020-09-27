@@ -34,7 +34,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
 
 							<ul class="footer-menu">
 								<li class="footer-menu-item">
-									<a onclick="changeFooter()" href="javascript:void(0);" id="contactus" >
+									<a onclick="changeFooter(event)" href="javascript:void(0);" id="contactus" style="z-index:1000;" >
 										contact us
 									</a>
 								</li>
@@ -176,8 +176,8 @@ $image_dir = "/wp-content/themes/understrap/img/";
 		var map11 = false;
 		var map2 = document.getElementById("footer2").classList;
 		var map1 = document.getElementById("footer1").classList;
-	function changeFooter() {
-		
+	function changeFooter(e) {
+		e.stopPropagation()
 		if(map22){
 			document.getElementById("contactus").style.color = '';
 			map2.add("hide");
@@ -202,6 +202,16 @@ $image_dir = "/wp-content/themes/understrap/img/";
 			navbar.classList.remove("sticky");
 		}
 	}
+
+	
+		document.body.addEventListener("click", function(e) {
+			e.stopPropagation()
+				document.getElementById("contactus").style.color = '';
+			map2.add("hide");
+			map1.remove('hide');
+			map22 = false;
+			
+		});
 </script>
 </body>
 

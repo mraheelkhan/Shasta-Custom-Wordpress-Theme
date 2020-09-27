@@ -23,22 +23,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" crossorigin="anonymous"></script>
 
-	<script>
-		new WOW().init({
-                      boxClass:     'wow',      // default
-                      animateClass: 'animated', // default
-                      offset:       0,          // default
-                      mobile:       true,       // default
-                      live:         true        // default
-                    });
-					$('.wow').on('scrollSpy:exit', function() {
-						$(this).css({
-						'visibility': 'hidden',
-						'animation-name': 'none'
-						}).removeClass('animated');
-						wow.addBox(this);
-					}).scrollSpy();
-	</script>
+	
 	
 
 	
@@ -66,8 +51,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<!-- custom logo -->
 					<a href="<?php echo site_url() ?>">
-
+					<?php if(is_front_page()): ?>
+						<img class="logo-img" src="<?php echo site_url() ?>/wp-content/themes/understrap/img/logo-shasta-white.png" />
+					<?php else: ?>
 						<img class="logo-img" src="<?php echo site_url() ?>/wp-content/themes/understrap/img/logo-shasta.png" />
+					<?php endif; ?>
 					</a>
 					<!-- end custom logo -->
 
