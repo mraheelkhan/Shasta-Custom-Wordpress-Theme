@@ -160,6 +160,7 @@ $image_dir = "/wp-content/themes/understrap/img/";
                                 <a href="<?php echo $link['link']['url']; ?>">
                                     <?php echo $link['link']['title']; ?>
                                 </a>
+                                
                             </li>
                             <?php endforeach; ?>
                         </ul>
