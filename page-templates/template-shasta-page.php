@@ -37,10 +37,12 @@ get_header();
         </div>
     </div>
     <?php 
-        $bios = get_posts(array(
-            'posts_per_page'	=> -1,
-            'post_type'			=> 'bio'
-        ));
+        // $bios = get_posts(array(
+        //     'posts_per_page'	=> -1,
+        //     'post_type'			=> 'bio'
+        // ));
+
+        $bios = get_field('bios');
     ?>
    
     <div class="shasta-persons-list">
